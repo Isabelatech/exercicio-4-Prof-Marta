@@ -1,0 +1,41 @@
+*{
+    /*espaçamento externo*/
+    margin: 0;
+    padding: 0;
+}
+/*seletor de tag body*/
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    /*configura altura de cada linha do texto,ou seja, espaço entre vertical  entre as linhas do texto*/
+    line-height: 1.6;
+    /*cor da fonte*/
+    color: #333;
+    /*cor do fundo*/
+    background-color: #f4f4f4;
+    /*espaçamento interno*/
+    padding: 20px;
+}
+/*seletor de classe*/
+.container{
+    /*largura do container*/
+    width: 100%;
+    background-color: white;
+    /* o margin 0 representa nenuhum espaçamento externo superior e inferior*/
+    /*o margin auto representa as margens esquerda e direita; o navegador automatica
+    distribuir o espaço externo de forma igualitaria entre as margens esquerda e direita, centralizada*/
+    margin: 0 auto;
+}
+/*seletor de classe*/
+.main-header{
+    /*A função linear-gradient inclui cores na vertical.
+    Uma cor vai se transformando em outra
+    135deg significa a direção do gradiente,Nesse caso, 135deg cria uma diagonal.
+    A cor vai mudando na diagonal.
+    Se fosse 0deg o gradiente vade baixo para cima.
+    Se fosse 180deg de cima baixa.
+    Se fosse 270deg da direita para esquerda.
+    */
+
+    background-color: linear-gradient(to right,#333,#f4f4f4);
+}
